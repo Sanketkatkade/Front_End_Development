@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box MOdel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        body {
+            background-color: #b174b5;
+        }
+
+        .container {
+            background-color: rgb(12, 174, 36);
+            border: 3px solid rgb(64, 6, 119);
+            /* we can set the margine o rpadding for top ,bottom,left and right like this 
+            padding-top: 80px;
+            padding-right: 50px;
+            padding-bottom: 80px;
+            padding-left: 60px;
+             */
+
+            /* padding/margine = top right bottom left; */
+            /* padding : 23px 56px 34px 30px; */
+
+            /* padding : y(top/bottom) x(right/left) */
+            padding: 34px 20px;
+
+            margin: 14px 20px;
+
+            border-radius: 23px;
+            width: 500px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolore excepturi perferendis
+            voluptate in sunt sed deleniti reiciendis architecto rerum.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolore excepturi perferendis
+            voluptate in sunt sed deleniti reiciendis architecto rerum.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolore excepturi perferendis
+            voluptate in sunt sed deleniti reiciendis architecto rerum.</p>
+    </div>
+
+</body>
+
+</html>
